@@ -17,7 +17,7 @@ if user_choice.lower() == "investment":
     print("Investment Calculator")
     deposit_amount = float(input("Enter amount of money you are depositing: "))
     interest_rate = float(input("Enter the interest rate (as a percentage): "))
-    investment_period= int(input("Enter the number of years you plan on investing: "))
+    investment_period = int(input("Enter the number of years you plan on investing: "))
     type_interest = input("Enter either 'simple' or 'compound' from the menu above to proceed: ")
     #Checks what type of interest calculation to user would like to carry out
     if type_interest.lower() == 'simple':
