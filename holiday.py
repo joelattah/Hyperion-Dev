@@ -36,7 +36,7 @@ print("Paris - £685")
 print("Milan - £480")
 
 #list created to check destination and then check price in dictionary
-city_list =['London', 'Paris', 'Milan'] 
+list_destinations =['London', 'Paris', 'Milan'] 
 
 # dictionary created so that city can be used as a key and then the price of flight as the value to be accessed
 city_prices = {'London':800 , 
